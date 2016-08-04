@@ -1,8 +1,7 @@
-// import { Observable } from 'rxjs/Observable'
-// import 'rxjs/add/observable/of'
-// import 'rxjs/add/observable/forkJoin'
-// import 'rxjs/add/observable/combineLatest'
-import { Observable } from 'rxjs/Rx'
+import { Observable } from 'rxjs/Observable'
+import 'rxjs/add/observable/of'
+import 'rxjs/add/observable/forkJoin'
+import 'rxjs/add/observable/combineLatest'
 import 'rxjs/add/operator/map'
 
 // Other imports
