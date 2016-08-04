@@ -1,5 +1,6 @@
-import { Observable } from 'rxjs/Observable'
-import 'rxjs/add/observable/empty'
+// import { Observable } from 'rxjs/Observable'
+// import 'rxjs/add/observable/empty'
+import { Observable } from 'rxjs/Rx'
 
 import 'rxjs/add/operator/publishReplay'
 import 'rxjs/add/operator/scan'
@@ -15,7 +16,6 @@ import deepEqual from 'deep-equal'
 import checkArgs from './util/check-args'
 import validIndexValue from './util/valid-index-value.js'
 import { serialize } from './serialization.js'
-
 
 /**
  @this TermBase
